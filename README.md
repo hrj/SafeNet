@@ -20,7 +20,7 @@ Because of these fewer permissions, users can trust your application more.
 There will be a library API to handle communication with the service. And to give you maximum freedom, there will be two versions of the library. One which works as advertised above, and another which issues the HTTP fetch directly (without using the service). Both the libraries will have the same API, so, at anytime you will be to switch between the two without changing a single line of code.
 
 ## How does it work
-This will be a simple app which accepts URL fetch requests from other applications and fetches them (HTTP GET) from the internet as a background service. Upon completion, the data can be returned to the application as a string or optionally saved to the SD card (and served via a content provider).
+This will be a simple app which accepts URL fetch requests from other applications and fetches them (HTTP GET) from the internet as a background service. Upon completion, the data can be returned to the application as a byte stream. The data may be saved to the SD card if it is marked as a large download.
 
 Since this is based on a callback, the network need not be available at all times. The service will (optionally) queue the request and fetch whenever a network is available.
 
