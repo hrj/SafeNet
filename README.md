@@ -9,11 +9,11 @@ This will be an Android app, that will let other applications get data from the 
 
 
 # For developers
-Your app... 
+Your app will be able to... 
 
-  * will be able to fetch data from the Internet without requiring the Internet permission.
-  * will be able to initiate a large file download without needing permission to access the SD card.
-  * won't need to ensure that a network is available currently, so, it won't need permissions to know the WiFi state, etc.
+  * fetch data from the Internet without requiring the Internet permission.
+  * initiate a large file download without needing permission to access the SD card.
+  * schedule a URL fetch for later based on some condition. For example, when a network connection becomes available. Hence, it won't need permissions to know the current WiFi state, etc.
 
 Because of these fewer permissions, users can trust your application more.
 
