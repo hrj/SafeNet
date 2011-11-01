@@ -1,4 +1,5 @@
 # A URL fetch service
+... for Android.
 
 # For users
 This will be an Android app, that will let other applications get data from the Internet. The advantages are:
